@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+              url("https://images.unsplash.com/photo-1509027572446-af8401acfdc3") center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  text-align: center;
+  color: white;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+}
+
+.hero-buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  background: #00c853;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid white;
+}
+
+/* AUTH */
+.auth-page {
+  height: 100vh;
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-box {
+  background: #1c1c1c;
+  padding: 30px;
+  border-radius: 10px;
+  width: 300px;
+  color: white;
+}
+
+.auth-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.auth-box button {
+  width: 100%;
+  padding: 10px;
+  background: #00c853;
+  border: none;
+  color: white;
+  cursor: pointer;
+}

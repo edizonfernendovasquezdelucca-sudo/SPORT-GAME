@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Panel Scouting</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="auth-page">
+
+<div class="auth-box" style="width: 90%; max-width: 900px;">
+  <h2>Panel de Scouting</h2>
+
+  <!-- FILTROS -->
+  <div style="display:flex; gap:10px; margin-bottom:20px;">
+    <input id="filterPosition" placeholder="Posición">
+    <input id="filterAge" placeholder="Edad">
+    <input id="filterClub" placeholder="Club">
+    <button onclick="loadPlayers()">Buscar</button>
+  </div>
+
+  <!-- LISTA -->
+  <div id="playersList"></div>
+
+  <br>
+  <button onclick="logout()">Cerrar sesión</button>
+</div>
+
+<script src="js/scouting.js"></script>
+<script src="js/auth.js"></script>
+</body>
+</html>
